@@ -31,5 +31,18 @@
     "mcp"
   ],
   "skills": "./skills/",
-  "mcpServers": "./mcp.json"
+  "mcpServers": "./mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "THEBROWSERFARM_API_KEY": {
+        "type": "string",
+        "title": "The Browser Farm API key",
+        "description": "API key from https://www.thebrowserfarm.com (sign in, then create a key). Sent as Authorization: Bearer <key>."
+      }
+    },
+    "required": [
+      "THEBROWSERFARM_API_KEY"
+    ]
+  }
 }
