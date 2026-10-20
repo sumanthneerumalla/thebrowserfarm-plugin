@@ -3,6 +3,7 @@
     "thebrowserfarm": {
       "type": "http",
       "url": "https://api.thebrowserfarm.com/mcp",
+      "placement": "server",
       "headers": {
         "Authorization": "Bearer ${THEBROWSERFARM_API_KEY}"
       }
