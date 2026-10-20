@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "thebrowserfarm": {
+      "type": "http",
+      "url": "https://api.thebrowserfarm.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${THEBROWSERFARM_API_KEY}"
+      }
+    }
+  }
+}

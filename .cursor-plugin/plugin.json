@@ -1,0 +1,35 @@
+{
+  "name": "thebrowserfarm",
+  "displayName": "The Browser Farm",
+  "version": "0.1.0",
+  "description": "Isolated real cloud Chromium browsers for agents and bot teams: one per website, many in parallel. Open, navigate, click, type and extract through a hosted MCP server.",
+  "author": {
+    "name": "The Browser Farm",
+    "email": "support@thebrowserfarm.com"
+  },
+  "homepage": "https://www.thebrowserfarm.com",
+  "repository": "https://github.com/sumanthneerumalla/thebrowserfarm-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "browser",
+    "cloud-browser",
+    "browser-farm",
+    "parallel",
+    "batch",
+    "scraping",
+    "web-automation",
+    "chromium",
+    "cdp",
+    "mcp"
+  ],
+  "category": "integrations",
+  "tags": [
+    "browser",
+    "automation",
+    "scraping",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}
